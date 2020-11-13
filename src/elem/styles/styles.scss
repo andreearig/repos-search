@@ -1,0 +1,74 @@
+#root {
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 90%;
+  max-width: 1024px;
+  text-align: center;
+  font-family: "Arial";
+  .app {
+    background-color: #cc9c7c;
+    min-height: 500px;
+    width: 400px;
+    margin: 40px auto;
+  }
+  .redText {
+    color: rgb(255, 0, 106);
+  }
+  .greenText {
+    color: green;
+  }
+  .blueText {
+    color: blue;
+  }
+  .search-bar {
+    margin: 90px;
+    
+    text-align: center;
+    border: 0;
+    width: 350px;
+    height: 200px;
+    padding: 0 15px;
+    margin: 20px;
+    
+    input {
+      width: 50%;
+      padding: 16px 20px;
+      border-radius: 30px;
+      border: 6px solid #a16363;
+      @media (max-width: 414px) {
+        width: 95%;
+      }
+    }
+  }
+  .user-info {
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow: auto;
+    img {
+      width: 150px;
+      border-radius: 50%;
+    }
+  }
+  .repo-list {
+    max-width: 600px;
+    margin: 0 auto;
+    border-top: 1px dotted #666666;
+    ul {
+      padding: 0px;
+      list-style: none;
+      li {
+        border: 1px solid #333333;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        padding: 10px;
+        p {
+          margin: 5px 0px 0px;
+        }
+        &:hover {
+          background-color: #d3d3d3;
+        }
+      }
+    }
+  }
+}
